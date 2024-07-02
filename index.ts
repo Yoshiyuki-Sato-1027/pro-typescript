@@ -1,2 +1,5 @@
-const testStr = "";
-console.log("test", typeof testStr === "string");
+function repeatHello(count: number): string {
+  return "hello".repeat(count);
+}
+
+repeatHello(1);
