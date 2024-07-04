@@ -15,3 +15,6 @@ class Human {
 const human = new Human();
 
 human.greet();
+const greeting = "Hello, ";
+const target = "world!";
+console.log(greeting + target);
