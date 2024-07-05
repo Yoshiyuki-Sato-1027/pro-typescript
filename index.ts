@@ -14,7 +14,13 @@ class Human {
 
 const human = new Human();
 
-human.greet();
-const greeting = "Hello, ";
-const target = "world!";
-console.log(greeting + target);
+// あまり推奨されていないがこのように書くこともできる
+const greeting = "Hello, ",
+  target = "world!",
+  text = greeting + target;
+console.log(text);
+
+// 日本語で変数宣言することもできる
+const あいう = 123;
+const 技術評論社 = あいう + 876;
+console.log(技術評論社);
