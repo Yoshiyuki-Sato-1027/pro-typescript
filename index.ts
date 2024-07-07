@@ -24,3 +24,9 @@ console.log(text);
 const あいう = 123;
 const 技術評論社 = あいう + 876;
 console.log(技術評論社);
+
+// 計算
+const width1 = 5;
+const width2 = 3;
+const height: number = 3;
+const area = ((width1 + width2) * height) / 2;
