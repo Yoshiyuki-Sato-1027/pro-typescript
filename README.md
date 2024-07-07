@@ -11,4 +11,6 @@ BigInt
 null
 undefined
 シンボル
-s
+
+
+数値リテラル
