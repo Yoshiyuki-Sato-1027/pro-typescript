@@ -56,3 +56,22 @@ console.log(million);
 // BigIntリテラル
 // const bignum: bigint = (123n + 456n) * 2n;
 // console.log(bignum); // 1158n と表示される
+
+// テンプレートリテラル
+const message: string = `Hello
+world!`;
+console.log(message);
+
+const str1: string = "Hello";
+const str2: string = "world!";
+console.log(`${str1}, ${str2}`); // "Hello, world!" と表示される
+
+console.log(`123 + 456 = ${123 + 456}`); // "123 + 456 = 579" と表示される
+
+// エスケープシーケンス
+console.log("Hello \\world/");
+
+// Unicodeコードポイント 祭」にはU+796D
+console.log("Hello \u{796d} world!");
+
+
